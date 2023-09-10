@@ -1,3 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Lato;
+    src: url(/dist/fonts/Lato/Lato-Regular.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: LatoLight;
+    src: url(/dist/fonts/Lato/Lato-Light.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: Merriweather;
+    src: url(/dist/fonts/Merriweather/Merriweather-Regular.ttf)
+      format("truetype");
+  }
+
+  .container {
+    @apply mx-auto;
+  }
+
+  h1 {
+    @apply text-4xl font-headline text-gray-900;
+  }
+  h2 {
+    @apply text-3xl font-headline text-gray-900;
+  }
+  h3 {
+    @apply text-2xl font-headline text-gray-900;
+  }
+  h4 {
+    @apply text-xl font-headline text-gray-900;
+  }
+  h5 {
+    @apply text-lg font-headline text-gray-900;
+  }
+
+  a {
+    @apply transition duration-300 ease-in-out text-link-text hover:underline underline-offset-2 hover:text-link-hover visited:text-link-visited;
+  }
+
+  .rich-text p {
+    @apply mt-5 mb-5;
+  }
+
+  hr {
+    @apply my-6;
+  }
+
+  blockquote {
+    @apply text-2xl font-headline pl-0;
+  }
+}
