@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind EGS</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="debug-screens">
+    <div
+      class="py-24 main bg-gradient-to-br from-light-bg via-v-light-bg to-light-bg"
+    >
+      <!-- section -->
+      <div
+        class="container grid-cols-12 gap-10 py-12 mx-auto lg:grid lg:items-center"
+      >
+        <div class="col-span-6 col-start-1 xl:self-center row-span-full">
+          <img
+            class="object-cover"
+            src="https://images.unsplash.com/photo-1624628639856-100bf817fd35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8M2QlMjBpbWFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+            alt=""
+          />
+        </div>
+        <div
+          class="z-10 self-center col-span-7 col-end-13 p-6 bg-white sm:p-12 row-span-full mx-auto md:max-w-[calc(100%-2em)] lg:max-w-none md:relative md:-mt-8 lg:mt-0 2xl:mr-0"
+        >
+          <div class="flex gap-4">
+            <div class="name-tag">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="49.609"
+                height="151.167"
+                viewBox="0 0 49.609 151.167"
+              >
+                <defs>
+                  <clipPath id="clip-path">
+                    <rect
+                      id="Rectangle_33"
+                      data-name="Rectangle 33"
+                      width="49.609"
+                      height="151.167"
+                      fill="none"
+                    />
+                  </clipPath>
+                </defs>
+                <g id="Group_9" data-name="Group 9" clip-path="url(#clip-path)">
+                  <path
+                    id="Path_63"
+                    data-name="Path 63"
+                    d="M8.914,44.154c16.3,0,37.469-6.964,37.469-24.1,0-9.75-6.686-17.272-14.068-17.829-3.343-.279-8.357-.279-11.7,5.989a8.822,8.822,0,0,1,4.457-1.392,7.375,7.375,0,0,1,7.243,7.243c0,4.875-3.482,7.243-7.243,7.243a8.181,8.181,0,0,1-8.636-7.8C15.74,5.711,22.843,0,31.061,0c8.357,0,20.058,7.522,18.386,23.4C48.194,35.24,39,40.115,33.847,42.762a52.712,52.712,0,0,1-9.054,3.76c1.811-.139,4.318-.278,7.661-.278V124.8c-3.343-.139-4.6,7.522-8.775,18.386C19.082,155.029,0,153.079,0,141.379c0-2.369,2.229-6.965,6.964-6.826,4.179,0,6.129,3.76,6.129,6.407,0,0,.279,3.9-2.925,5.571,8.5,2.647,9.332-5.989,9.332-31.061V60.731c0-3.2,0-13.651-2.089-13.651l-8.5.279Z"
+                    fill="#d6cfb2"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div>
+              <h2 class="mb-4 leading-tight">Rooms</h2>
+              <p class="mb-12 md:text-md">
+                Our five hotel rooms have a distinctive character and their own
+                unique outlook: choose from misty mountain vistas, Juliet
+                balconies overlooking a tranquil village square or a private
+                terrace looking out over a beautifully-tended garden. Ideal for
+                guests seeking a personal experience with local insights,
+                organic breakfasts and home-cooked evening meals by reservation.
+              </p>
+              <div class="mb-6">
+                <a
+                  href="#"
+                  class="relative px-6 py-3 font-bold text-baragon group hover:no-underline hover:text-baragon"
+                >
+                  <span
+                    class="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-1 translate-y-1 rounded-lg bg-aths group-hover:translate-x-0 group-hover:translate-y-0"
+                  ></span>
+                  <span
+                    class="absolute inset-0 w-full h-full border-2 rounded-lg border-baragon"
+                  ></span>
+                  <span class="relative text-baragon">Button</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- section 2 -->
+      <div
+        class="container grid-cols-12 gap-10 py-12 mx-auto lg:grid lg:items-center"
+      >
+        <div class="col-span-6 col-start-7 xl:self-center row-span-full">
+          <!-- changed to col-start-7 -->
+          <img
+            class="object-cover"
+            src="https://images.unsplash.com/photo-1624628639856-100bf817fd35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8M2QlMjBpbWFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+            alt=""
+          />
+        </div>
+        <div
+          class="z-10 self-center col-span-7 col-end-8 p-6 bg-white sm:py-12 sm:pr-12 sm:pl-12 lg:pr-20 xl:pl-12 xl:pr-28 2xl:pr-36 row-span-full mx-auto md:max-w-[calc(100%-2em)] lg:max-w-none md:relative md:-mt-8 lg:mt-0 2xl:ml-0"
+        >
+          <!-- changed to col-end-8 2xl:ml-0 lg:pr-20 xl:pl-28 2xl:pl-36 -->
+          <h2 class="mb-4 leading-tight">Rooms</h2>
+          <p class="mb-12 md:text-md">
+            Our five hotel rooms have a distinctive character and their own
+            unique outlook: choose from misty mountain vistas, Juliet balconies
+            overlooking a tranquil village square or a private terrace looking
+            out over a beautifully-tended garden. Ideal for guests seeking a
+            personal experience with local insights, organic breakfasts and
+            home-cooked evening meals by reservation.
+          </p>
+          <div class="mb-6">
+            <a
+              href="#"
+              class="relative px-6 py-3 font-bold text-baragon group hover:no-underline hover:text-baragon"
+            >
+              <span
+                class="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-1 translate-y-1 bg-aths group-hover:translate-x-0 group-hover:translate-y-0"
+              ></span>
+              <span
+                class="absolute inset-0 w-full h-full border-2 border-baragon"
+              ></span>
+              <span class="relative text-baragon">Button</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-24"></div>
+    </div>
+  </body>
+</html>

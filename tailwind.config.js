@@ -21,7 +21,9 @@ module.exports = {
       colors: {
         'gold': '#fdca40',
         'aths': '#d6cfb2',
+        'aths-light': '#dad3b9',
         'light-bg': '#f8f7f3',
+        'v-light-bg':'#fbfbf9',
         'dark-engine': '#3c3e42',
         'baragon': "#591903",
         'bakers': '#5f3400',
@@ -34,6 +36,11 @@ module.exports = {
           "hover": "#50591c",
           "visited": "#51758B"
         }
+      },
+      backgroundImage: {
+        'brick-pattern': "url('/egs-tailwind/layouts/images/bw-wall.png')",
+        'footer-texture': "url('/egs-tailwind/layouts/images/footer-background.jpg')",
+        'footer-img': "url('/egs-tailwind/layouts/images/house-drawing.svg')",
       }, 
     },
   },

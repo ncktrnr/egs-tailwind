@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind EGS</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="debug-screens">
+    <!-- breadcrumb -->
+    <nav aria-label="breadcrumb">
+      <ol class="flex leading-none text-indigo-600 divide-x divide-indigo-400">
+        <li class="pr-4"><a href="#">Home</a></li>
+        <li class="px-4 text-gray-700" aria-current="page">Blog</li>
+      </ol>
+    </nav>
+
+    <nav class="mt-8" aria-label="breadcrumb">
+      <ol class="flex leading-none text-indigo-600 divide-x divide-indigo-400">
+        <li class="pr-4"><a href="#">Home</a></li>
+        <li class="px-4"><a href="#">Blog</a></li>
+        <li class="px-4 text-gray-700" aria-current="page">This week</li>
+      </ol>
+    </nav>
+
+    <div
+      class="h-40 h-screen bg-gradient-to-br from-light-bg via-v-light-bg to-light-bg"
+    >
+      <div class="relative m-20 overflow-hidden w-400 h-200">
+        <div class="w-full h-6 bg-1fa2ed"></div>
+        <div class="absolute top-0 left-0 w-full h-6 -mt-6 bg-1fa2ed"></div>
+        <div class="p-12 border border-solid border-1fa2ed rounded-3">
+          <div class="w-full h-full bg-606060">
+            <!-- Your module contents here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
